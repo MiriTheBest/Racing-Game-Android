@@ -1,0 +1,12 @@
+Logic of the game:
+
+The player is a cat and the obstacles are the sprays. The sprays are moving towards the cat.
+If a cat and the spray are in the same cell, there is a collision and a player loses life.
+Generally, there are 3 lives, but the game is endless so even if you lost all your lives
+you can still continue the game.
+The player has 2 options: move left or move right.
+If the player is in the last cell on the right or left, he/she cannot go out of the screen limits,
+no matter how many times you press the button.
+You can collide with the spray horizontally by moving the cat to spray or vertically,
+if the spray "falls" on you.
+When there is a crash, there is a vibration and a toast message.
